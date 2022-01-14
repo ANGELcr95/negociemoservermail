@@ -12,7 +12,7 @@ const BannerInfo = ({ item }) => {
   console.log(auth.tokenAuth);
 
   return (
-    <div className="BannerInfo row ">
+    <div className="BannerInfo p-0">
       <div className="DescriptionBanner col-sm-12 col-md-6 mx-auto">
         <h4>{item.DESCRIPCION}</h4>
         <p>

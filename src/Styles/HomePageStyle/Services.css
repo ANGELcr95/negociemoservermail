@@ -1,11 +1,6 @@
 .Services {
-    background-color: rgba(153, 235, 255, 0.445);
-    color:black;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
+    color:black !important;
+    background-color: rgba(153, 235, 255, 0.445) !important;
 }
 
 .ServicesImg {
@@ -21,7 +16,7 @@
     padding: 1rem;
     cursor: pointer;
     border-radius: 0.3rem;
-    margin:auto 1rem auto 1rem;
+    margin:1rem 1rem;
 }
 
 .ServicesImg4{
@@ -30,7 +25,7 @@
     padding: 1rem;
     cursor: pointer;
     border-radius: 0.3rem;
-    margin:auto 1rem auto 1rem;
+    margin:1rem  1rem;
 
 }
 
