@@ -14,9 +14,9 @@ import img from "./bg-main.jpg"
 const HomePage = () => {
     // className="BannerImg" style={{backgroundImage:`url(${img})`}}
     return (
-        <div className="HomePage col-12 p-0">
+        <div className="HomePage  col-12 p-0">
             <Information/>
-            <div className="BannerImg pt-3 pb-3" style={{backgroundImage:`url(${img})`}}>
+            <div className="BannerImg row pt-3 pb-3" style={{backgroundImage:`url(${img})`}}>
             <NavigationBar/>
             {/* <RedFixed/> */}
             <Banner/>

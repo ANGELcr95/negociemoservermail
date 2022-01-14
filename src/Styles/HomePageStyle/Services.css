@@ -14,22 +14,6 @@
     justify-content: center;
 }
 
-.ServicesImg1{
-    background-color: white;
-    border-bottom: 0.3rem solid rgb(0, 198, 248);
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 0.3rem;
-
-}
-
-.ServicesImg2{
-    background-color: white;
-    border-bottom: 0.3rem solid rgb(0, 198, 248);
-    padding: 1.8rem;
-    cursor: pointer;
-    border-radius: 0.3rem;
-}
 
 .ServicesImg3{
     background-color: white;

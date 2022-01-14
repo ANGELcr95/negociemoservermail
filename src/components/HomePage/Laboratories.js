@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState,useEffect } from "react";
-import {Slideshow, Slide,
-	//  TextoSlide
-	} from './Slideshow'
+import {Slideshow, Slide, TextoSlide} from './Slideshow'
 import { Link } from "react-router-dom";
 import './Laboratories.css';
 import styled from 'styled-components';
@@ -37,7 +35,7 @@ import ANGL from "../../data/dataANGL.json";
 import BCN from "../../data/dataBCN.json";
 import BIOQ from "../../data/dataBIOQ.json";
 import BUSS from "../../data/dataBUSS.json";
-// import CLFR from "../../data/dataCLFR.json";
+import CLFR from "../../data/dataCLFR.json";
 import COLM from "../../data/dataCOLM.json";
 import ECAR from "../../data/dataECAR.json";
 import EXP from "../../data/dataEXP.json";
@@ -56,12 +54,12 @@ const App = () => {
 
 	const dispatch = useDispatch()
 
-    // const [is320px, set320px] = useState(false)
+    const [is320px, set320px] = useState(false)
     const [is576px, set576px] = useState(false)
     const [is992px, set992px] = useState(false)
     const [ismas992px, setmas992px] = useState(false)
     
-    // const [buttonPopUp, setButtonPopUp] = useState(false)
+    const [buttonPopUp, setButtonPopUp] = useState(false)
 
     useEffect(()=> {
 		console.log(window.screen.width)

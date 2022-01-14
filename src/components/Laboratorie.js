@@ -75,7 +75,7 @@ const Laboratorie = () => {
 
     return (
         <div className="Laboratorie">
-          <div className="BannerImg" style={{backgroundImage:`url(${img})`}}>
+          <div className="BannerImg row mb-4" style={{backgroundImage:`url(${img})`}}>
             <Information/>
             <NavigationBar/>
           </div>  

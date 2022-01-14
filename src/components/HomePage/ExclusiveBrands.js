@@ -16,22 +16,22 @@ const ExclusiveBrands = () => {
         <h4>MARCAS EXCLUSIVAS</h4>
             <div className="ExclusiveBrandsImg row col-10 col-sm-10 col-md-12 col-lg-10 col-xl-8 mx-auto p-0">
                 <article className="uno col-12 col-sm-6 col-md-3 p-0">
-                    <a href="/"><img src={img1} alt="5" /></a>
+                    <a ><img src={img1} alt="5" /></a>
                     <AcUnitIcon style={{color: '#0096d2', fontSize: 80}}/>
                     <div ></div>
                 </article>
                 <article className="dos col-12 col-sm-6 col-md-3 p-0">
-                    <a href="/"><img src={img2} alt="5" /></a>
+                    <a ><img src={img2} alt="5" /></a>
                     <AllInclusiveIcon style={{color: '#0096d2', fontSize: 80}}/>
                     <div ></div>
                 </article>
                 <article className="tres col-12 col-sm-6 col-md-3 p-0">
-                    <a href="/" ><img src={img3} alt="5" /></a>
+                    <a ><img src={img3} alt="5" /></a>
                     <MemoryIcon style={{color: '#0096d2', fontSize: 80}}/>
                     <div ></div>
                 </article>
                 <article className="cuatro col-12 col-sm-6 col-md-3 p-0">
-                    <a href="/" ><img src={img4} alt="5" /></a>
+                    <a ><img src={img4} alt="5" /></a>
                     <TripOriginIcon style={{color: '#0096d2', fontSize: 80}}/>
                     <div ></div>
                 </article>

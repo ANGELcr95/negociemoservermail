@@ -11,8 +11,8 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 //autenticacion
 import useAuth from '../../Auth/useAuth';
 import { useForm } from 'react-hook-form';
-// import postToken from '../../services/postToken';
-// import postEmail from '../../services/postEmail';
+import postToken from '../../services/postToken';
+import postEmail from '../../services/postEmail';
 import mailLogin from '../../services/mailLogin';
 
 
@@ -24,7 +24,7 @@ const Information = () => {
     const [dataForm, setDataForm] = useState()
     const { register, handleSubmit,reset } = useForm()
 
-    // const auth = useAuth()
+    const auth = useAuth()
 
     const handleLogin = (data) => {
         setDataForm(data)
