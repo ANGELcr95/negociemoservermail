@@ -1,7 +1,4 @@
-.Services {
-    color:black !important;
-    background-color: rgba(153, 235, 255, 0.445) !important;
-}
+
 
 .ServicesImg {
     margin: auto;
@@ -44,4 +41,9 @@
 .ServicesImg4:hover{
     border-bottom: none;
     transition: 2s;
+}
+
+.ServicesClient {
+    color:black;
+    background: rgba(153, 235, 255, 0.445);
 }

@@ -7,8 +7,8 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="Services row col-12 p-3">
-      <div className="ServicesImg row col-12 col-lg-8 col-xl-6 mx-auto">
+    <div className="ServicesClient row col-12 p-3">
+      <div className="ServicesImg col-12 col-lg-8 col-xl-6 mx-auto">
         {/* <div className="ServicesImg1">
                     <LocalShippingIcon style={{color: '#0096d2', fontSize: 40}}/>
                     <h6>Envio Gratis</h6>
