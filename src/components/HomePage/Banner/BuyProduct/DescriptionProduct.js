@@ -22,11 +22,11 @@ const DescriptionProduct = () => {
 
     const itemLocal = JSON.parse(window.localStorage.getItem("item"))
 
-    if(counItem.length != 0){
+    if(counItem.length !== 0){
         window.localStorage.setItem("itemsBuy",JSON.stringify(counItem))
     }
 
-    if(item.length != 0 ){
+    if(item.length !== 0 ){
         window.localStorage.setItem("item", JSON.stringify(item))
     }
 
@@ -71,19 +71,19 @@ const DescriptionProduct = () => {
                     {item.ID_CODBAR? <img className="mx-auto p-0" src={`img/${item.ID_CODBAR}.jpg`} alt="img"></img>:<img  className="mx-auto p-0" src={"img/036600813719.jpg"} alt="404"></img>}
                 </div>
                 <div className="PicreAndDescription col-10  col-sm-7 mx-auto">
-                    <p>{item.length != 0? item.CMLINEAS_DESCRIPCION: itemLocal.CMLINEAS_DESCRIPCION}</p>
-                    <h3>{item.length != 0? item.DESCRIPCION: itemLocal.DESCRIPCION}</h3>
+                    <p>{item.length !== 0? item.CMLINEAS_DESCRIPCION: itemLocal.CMLINEAS_DESCRIPCION}</p>
+                    <h3>{item.length !== 0? item.DESCRIPCION: itemLocal.DESCRIPCION}</h3>
                     <div className="Prices">
                         <div className="NoTachado">
-                        <h3 >{formatNumber(item.length != 0?item.PRECIO_MIN_1: itemLocal.PRECIO_MIN_1)}</h3>
+                        <h3 >{formatNumber(item.length !== 0?item.PRECIO_MIN_1: itemLocal.PRECIO_MIN_1)}</h3>
                             <p>Ahora</p>
                         </div>
-                        {/* {item.length != 0 && item.ULTIMO_COSTO_ED < item.PRECIO_MIN_1? 
-                         <h5 className="Tachado">{formatNumber(item.length != 0?(item.PRECIO_MIN_1)*1.1:(itemLocal.PRECIO_MIN_1)*1.1)}</h5>:
+                        {/* {item.length !== 0 && item.ULTIMO_COSTO_ED < item.PRECIO_MIN_1? 
+                         <h5 className="Tachado">{formatNumber(item.length !== 0?(item.PRECIO_MIN_1)*1.1:(itemLocal.PRECIO_MIN_1)*1.1)}</h5>:
                          null
                         }
                         {item.length == 0 && itemLocal.ULTIMO_COSTO_ED < itemLocal.PRECIO_MIN_1? 
-                         <h5 className="Tachado">{formatNumber(itemLocal.length != 0?itemLocal.PRECIO_MIN_1:itemLocal.PRECIO_MIN_1)}</h5>:
+                         <h5 className="Tachado">{formatNumber(itemLocal.length !== 0?itemLocal.PRECIO_MIN_1:itemLocal.PRECIO_MIN_1)}</h5>:
                          null
                         } */}
                     </div>
@@ -110,7 +110,7 @@ const DescriptionProduct = () => {
                             <Button 
                             // disabled={!addCar}
                             // onClick={()=>{
-                            //     // dispatch(getCountProductBuyAction(item.length != 0? item:itemLocal))
+                            //     // dispatch(getCountProductBuyAction(item.length !== 0? item:itemLocal))
                             // }}
                             type="number" className="Buy" variant="contained" size="medium" color="primary" startIcon={<ShoppingCartIcon />}
                             >Añadir al carrito</Button>
@@ -124,7 +124,7 @@ const DescriptionProduct = () => {
                         </div>
                     </form>
                     <div className="RedInfo"> 
-                        <p> Ref:        {item.length != 0?item.ID_REFERENCIA:itemLocal.ID_REFERENCIA}</p>
+                        <p> Ref:        {item.length !== 0?item.ID_REFERENCIA:itemLocal.ID_REFERENCIA}</p>
                         <p> Categoria:  Antiesaminico (Fijo)  </p>
                         <p> Etiqietas:  Medicameneto Pastilla (Fijo)</p>
                     </div>

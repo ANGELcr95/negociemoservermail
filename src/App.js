@@ -3,8 +3,6 @@ import HomePage from './components/Homepage';
 import {
   HashRouter as  Router,
   Switch,
-  Route,
-  Redirect
 } from "react-router-dom"
 import Products from './components/Products';
 import BuyProduct from './components/HomePage/Banner/BuyProduct';
